@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers for loops</title>
+</head>
+<body>
+    <script>
+        var numbers = new Array(1,2,3,4)
+        var numbersequence = ["1", "2", "3", "4"];
+
+        // push method 
+        document.write("before =>" + numbersequence + "<br>")
+        numbersequence.push("1")
+        document.write("after => " + numbersequence + "<br>")
+
+        // unshift method
+        document.write("before unshift => " + numbersequence + "<br>")
+        numbersequence.unshift("2")
+        document.write("after  unshift => " + numbersequence + "<br>")
+
+        // add by pop method
+        document.write("before =>" + numbersequence + "<br>")
+        numbersequence.pop()
+        document.write("after => " + numbersequence + "<br>")
+
+        // shift method
+        document.write("before shift => " + numbersequence + "<br>")
+        numbersequence.shift()
+        document.write("after  shift => " + numbersequence + "<br>")
+</script>
+        
+</body>
+</html>
